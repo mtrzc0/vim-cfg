@@ -1,7 +1,3 @@
-Certainly! Below is an example of a README file for a repository containing a simple `.vimrc` configuration.
-
----
-
 # .vimrc Configuration
 
 This repository contains a simple `.vimrc` configuration file for the Vim text editor. The `.vimrc` file is used to customize Vim according to your preferences, enhancing productivity and tailoring the editor to better suit your workflow.
