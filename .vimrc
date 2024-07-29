@@ -27,3 +27,7 @@ set number
 inoremap <c-b> <Esc>:Lex<cr>:vertical resize   30<cr>
 nnoremap <c-b> <Esc>:Lex<cr>:vertical resize   30<cr>
 
+"Set up proper tab width
+set tabstop=4
+set shiftwidth=4
+set expandtab
