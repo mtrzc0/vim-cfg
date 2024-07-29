@@ -1,4 +1,4 @@
-"Vim Plug
+   "Vim Plug
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 
 if empty(glob(data_dir . '/autoload/plug.vim'))
@@ -24,8 +24,9 @@ let g:airline_theme='gruvbox'
 set number
 
 "Use Lex as file tree
-inoremap <c-b> <Esc>:Lex<cr>:vertical resize   30<cr>
+inoremap <c-b> <Esc>:Lex<cr>:vertical resize   30<cr> 
 nnoremap <c-b> <Esc>:Lex<cr>:vertical resize   30<cr>
+let g:netrw_banner=0
 
 "Set up proper tab width
 set tabstop=4
